@@ -1,0 +1,209 @@
+src/components/App.css
+.banner-1-bg, .banner-2-bg, html, #root, .App {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  } 
+
+  .bank-name {
+    color: rgb(4, 81, 235); 
+    font-weight: bold;
+  }
+  
+  .header-right a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .language-select, .login-btn, .open-account-btn {
+    margin-left: 10px;
+  }
+  
+  .login-btn, .apply-btn {
+    background-color:#170784;
+    color: white;
+    border-radius: 30px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  .open-account-btn{
+    background-color: white;
+    color: blue;
+    border-radius: 30px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .banner-1-bg {
+  display: flex;
+  padding: 20px;
+  background: url('../images/Home - Banner 1 BG.jpg') no-repeat center center; 
+  background-size: cover;
+  height: calc(100vh - 60px);
+  }
+  
+  .banner-left{
+    flex: 1;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 100px;
+    border-radius: 10px;}
+
+
+    .banner-right {
+     flex: 1;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 140px;
+    border-radius: 10px;
+    margin-left: 800px; 
+    text-align: left;
+    }  
+    
+  
+  .bank-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .explore-our-offers{
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+  }
+
+  .create-account{
+    display: block;
+  margin: 20px auto;
+  background-color: #170784;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  border-color: white;
+  }
+  
+  .h1{
+    text-align: center;
+  }
+  
+  
+  .cards-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+  }
+  
+  .card img {
+    max-width: 100%;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+
+  .banner-2-bg {
+    display: flex;
+    padding: 20px;
+    background: url('../images/Home\ -\ Banner\ 2\ BG.jpg') no-repeat center center; 
+    background-size: cover;
+    height: calc(100vh - 60px);
+    background-color: #f4f4f4;
+    padding: 20px;
+    }
+
+
+    .banner-1-bg {
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.banner-left {
+  text-align: left;
+}
+
+.apply-btn {
+  background-color: #170784;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.explore-our-offers {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.create-account {
+  display: block;
+  margin: 20px auto;
+  background-color: #170784;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.h1 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
+  width: 22%;
+}
+
+.card img {
+  max-width: 100%;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.benfits-section {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+/*cs*/
+
+
+
+
